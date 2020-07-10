@@ -803,7 +803,7 @@ function drawGame()
 	{
 		for(var x = viewport.startTile[0]; x <= viewport.endTile[0]; ++x)
 		{
-			if(z==0)
+			if(!z)
 			{
 				tileTypes[mapTileData.map[toIndex(x,y)].type].sprite.draw(
 					gameTime,
@@ -811,7 +811,7 @@ function drawGame()
 					viewport.offset[1] + (y*tileH),
 					tileset);
 			}
-			else if(z==1)
+			else if(z)
 			{
 				var is = mapTileData.map[toIndex(x,y)].itemStack;
 				if(is!=null)
