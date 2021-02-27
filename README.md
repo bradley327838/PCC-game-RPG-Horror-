@@ -5,7 +5,7 @@ This project was created July 14th 2020
 
 # Demo
 
-![](https://imgur.com/Zosk6UK)
+![](https://imgur.com/Zosk6UK.gif)
 
 # How to Play
 To play my game, download the entire zip file and open the index.html file.
